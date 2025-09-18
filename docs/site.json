@@ -1,7 +1,7 @@
 {
   "baseUrl": "",
   "titlePrefix": "HealthNote",
-  "titleSuffix": "AddressBook Level-3",
+  "titleSuffix": "HealthNote",
   "faviconPath": "images/SeEduLogo.png",
   "style": {
     "codeTheme": "light"
