@@ -30,3 +30,12 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Dev Ops + Integration
+
+### Jia Yang (soo42)
+<img src ="images/soo42.png" width="200px">
+
+[[github](http://github.com/soo42)]
+[[portfolio](team/soo42.md)]
+
+* Role: Developer
+* Responsibilities: Testing + Data
