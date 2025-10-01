@@ -11,15 +11,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Yen Chong Wenjie
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/w3njii.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/w3njii)]
+[[portfolio](team/yenchongwenjie.md)]
 
-* Role: Project Advisor
+* Role: Code Quality, Documentation
+* Responsibilities: In charge of documentation quality and code quality
 
 ### Camlin
 
@@ -31,31 +31,31 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Deliverables and Deadline
 * Responsibilities: Ensure project deliverables are done on time and in the right format.
 
-### Johnny Doe
+### Ivan Lau
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/soywater.png" width="200px">
 
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/SoyWater)]
+[[portfolio](team/soywater.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Threading
+* Responsibilities: DevOps + Integration
 
-### James Doe
+### Lew Si Yu
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/github_bananapielearnsjava.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/bananapielearnsjava)]
+[[portfolio](team/bananapielearnsjava.md)]
 
 * Role: Developer
-* Responsibilities: UI
+* Responsibilities: Model, UI, Storage
+
+### Jia Yang (soo42)
+<img src ="images/soo42.png" width="200px">
+
+[[github](http://github.com/soo42)]
+[[portfolio](team/soo42.md)]
+
+* Role: Developer
+* Responsibilities: Testing + Data
