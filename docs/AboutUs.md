@@ -11,6 +11,26 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
+### Yen Chong Wenjie
+
+<img src="images/w3njii.png" width="200px">
+
+[[github](https://github.com/w3njii)]
+[[portfolio](team/yenchongwenjie.md)]
+
+* Role: Code Quality, Documentation
+* Responsibilities: In charge of documentation quality and code quality
+
+### Ivan Lau
+
+<img src="images/soywater.png" width="200px">
+
+[[github](https://github.com/SoyWater)]
+[[portfolio](team/soywater.md)]
+
+* Role: Developer
+* Responsibilities: Dev Ops + Integration
+
 ### Jia Yang (soo42)
 <img src ="images/soo42.png" width="200px">
 
@@ -19,4 +39,3 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Testing + Data
-
