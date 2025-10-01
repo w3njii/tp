@@ -287,38 +287,38 @@ _{Explain here how the data archiving feature will be implemented}_
 
 Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unlikely to have) - `*`
 
-| Priority | As a …​              | I want to …​                                      | So that I can…​                                                        |
-|----------|----------------------|--------------------------------------------------|------------------------------------------------------------------------|
-| `* * *`  | New User             | view user guide                                  | learn how to use the product whenever I need to                        |
-| `* * *`  | Doctor               | add a patient's name                             | identify the patient correctly                                         |
-| `* * *`  | Doctor               | add a patient's identity number                  | uniquely distinguish patients with similar names                       |
-| `* * *`  | Doctor               | add a patient's phone number                     | contact the patient when needed                                        |
-| `* * *`  | Doctor               | add a patient's email address                    | send medical updates or reports conveniently                           |
-| `* * *`  | Doctor               | add a patient's home address                     | send physical documents or conduct home visits                         |
-| `* * *`  | Doctor               | attach emergency contacts with relationship      | call the right person when there is an emergency                       |
-| `* * *`  | Doctor               | view patients' blood type                        | assure transfusion                                                     |
-| `* * *`  | Doctor               | see and update a patient’s drug allergies        | prevent administering harmful medications                              |
-| `* * *`  | Doctor               | view my patients' past health condition          | gain an understanding of what may cause their current problem          |
-| `* * *`  | Doctor               | view my past appointments records                | maintain a complete appointment history for accurate tracking          |
-| `* * *`  | Doctor               | check my upcoming appointments                   | schedule my day easier and faster                                      |
-| `* * *`  | Doctor               | view patients tagged with certain conditions     | filter and prioritize cases more easily                                |
-| `* * *`  | Doctor               | search for patients by name or ID                | locate their records efficiently                                       |
-| `* * *`  | Doctor               | view my patients' current condition              | administer the correct treatment                                       |
-| `* * *`  | Doctor               | delete outdated patient records                  | keep the patient records clean                                         |
-| `* * *`  | Doctor               | add my patient's gender to the profile           | ensure accurate medical records and provide gender-specific care       |
-| `* * *`  | Doctor               | have a quick GUI summary on patient records      | get a refresher on the patient's condition before appointment          |
-| `* *`    | Meticulous doctor    | add special notes to each appointment            | add in useful information that I should remember                       |
-| `* *`    | Doctor               | detect potential duplicate ID                    | merge records safely                                                   |
-| `* *`    | Doctor               | add in the patient record whether they are a smoker | keep in mind if they have higher risk of certain diseases              |
-| `* *`    | Doctor               | add in the patient record whether they are an alcoholic | keep in mind if they have higher risk of certain diseases              |
-| `* *`    | Doctor               | add a patient's dietary restrictions             | provide informed medical advice and ensure safe treatment plan         |
-| `* *`    | Forgetful doctor     | recover recently deleted records                 | recover the data after I use delete command                            |
-| `* *`    | Clumsy doctor        | confirm before I delete records                  | avoid accidentally deleting records                                    |
-| `* *`    | Doctor               | pull up records of a disease                     | check previously successful treatment plans                            |
-| `* *`    | Doctor               | retrieve previously inputted records after reopening the app | input records and retrieve them again without them being lost          |
-| `* *`    | Doctor               | add a patient's age and date of birth            | obtain their age for age-specific medical assessments and treatments   |
-| `*`      | Fast typing CLI user | use short command aliases                        | retrieve data needed easily                                            |
-| `*`      | Forgetful user       | view available commands                          | know what command to be used                                           |
+| Priority   | As a …​              | I want to …​                                                 | So that I can…​                                                      |
+|------------|----------------------|--------------------------------------------------------------|----------------------------------------------------------------------|
+| `* * *`    | New User             | view user guide                                              | learn how to use the product whenever I need to                      |
+| `* * *`    | Doctor               | add a patient's name                                         | identify the patient correctly                                       |
+| `* * *`    | Doctor               | add a patient's identity number                              | uniquely distinguish patients with similar names                     |
+| `* * *`    | Doctor               | add a patient's phone number                                 | contact the patient when needed                                      |
+| `* * *`    | Doctor               | add a patient's email address                                | send medical updates or reports conveniently                         |
+| `* * *`    | Doctor               | add a patient's home address                                 | send physical documents or conduct home visits                       |
+| `* * *`    | Doctor               | attach emergency contacts with relationship                  | call the right person when there is an emergency                     |
+| `* * *`    | Doctor               | view patients' blood type                                    | assure transfusion                                                   |
+| `* * *`    | Doctor               | see and update a patient’s drug allergies                    | prevent administering harmful medications                            |
+| `* * *`    | Doctor               | view my patients' past health condition                      | gain an understanding of what may cause their current problem        |
+| `* * *`    | Doctor               | search for patients by name or ID                            | locate their records efficiently                                     |
+| `* * *`    | Doctor               | view my patients' current condition                          | administer the correct treatment                                     |
+| `* * *`    | Doctor               | delete outdated patient records                              | keep the patient records clean                                       |
+| `* * *`    | Doctor               | have a quick GUI summary on patient records                  | get a refresher on the patient's condition before appointment        |
+| `* * *`    | Doctor               | add in the patient record whether they are a smoker          | keep in mind if they have higher risk of certain diseases            |
+| `* * *`    | Doctor               | add in the patient record whether they are an alcoholic      | keep in mind if they have higher risk of certain diseases            |
+| `* * *`    | Doctor               | retrieve previously inputted records after reopening the app | input records and retrieve them again without them being lost        |
+| `* * *`    | Fast typing CLI user | use short command aliases                                    | retrieve data needed easily                                          |
+| `* * *`    | Forgetful user       | view available commands                                      | know what command to be used                                         |
+| `* *`      | Doctor               | view my past appointments records                            | maintain a complete appointment history for accurate tracking        |
+| `* *`      | Doctor               | check my upcoming appointments                               | schedule my day easier and faster                                    |
+| `* *`      | Doctor               | view patients tagged with certain conditions                 | filter and prioritize cases more easily                              |
+| `* *`      | Doctor               | add my patient's gender to the profile                       | ensure accurate medical records and provide gender-specific care     |
+| `* *`      | Meticulous doctor    | add special notes to each appointment                        | add in useful information that I should remember                     |
+| `* *`      | Doctor               | detect potential duplicate ID                                | merge records safely                                                 |
+| `* *`      | Forgetful doctor     | recover recently deleted records                             | recover the data after I use delete command                          |
+| `* *`      | Clumsy doctor        | confirm before I delete records                              | avoid accidentally deleting records                                  |
+| `* *`      | Doctor               | add a patient's age and date of birth                        | obtain their age for age-specific medical assessments and treatments |
+| `*`        | Doctor               | add a patient's dietary restrictions                         | provide informed medical advice and ensure safe treatment plan       |
+| `*`        | Doctor               | pull up records of a disease                                 | check previously successful treatment plans                          |
 
 ### Use cases
 
