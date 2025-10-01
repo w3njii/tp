@@ -11,33 +11,25 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ## Project team
 
-### John Doe
+### Yen Chong Wenjie
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/w3njii.png" width="200px">
 
-[[homepage](http://www.comp.nus.edu.sg/~damithch)]
-[[github](https://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](https://github.com/w3njii)]
+[[portfolio](team/yenchongwenjie.md)]
 
-* Role: Project Advisor
+* Role: Code Quality, Documentation
+* Responsibilities: In charge of documentation quality and code quality
 
-### Jane Doe
+### Ivan Lau
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/soywater.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
+[[github](https://github.com/SoyWater)]
+[[portfolio](team/soywater.md)]
 
 * Role: Developer
+<<<<<<< HEAD
 * Responsibilities: Data
 
 ### Jean Doe
@@ -59,3 +51,6 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Model, UI, Storage 
+=======
+* Responsibilities: Dev Ops + Integration
+>>>>>>> master
