@@ -29,7 +29,17 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/soywater.md)]
 
 * Role: Developer
-* Responsibilities: Dev Ops + Integration
+* Responsibilities: Data
+
+### Lew Si Yu
+
+<img src="images/github_bananapielearnsjava.png" width="200px">
+
+[[github](http://github.com/bananapielearnsjava)]
+[[portfolio](team/bananapielearnsjava.md)]
+
+* Role: Developer
+* Responsibilities: Model, UI, Storage
 
 ### Jia Yang (soo42)
 <img src ="images/soo42.png" width="200px">
