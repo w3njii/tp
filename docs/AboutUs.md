@@ -21,15 +21,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Project Advisor
 
-### Jane Doe
+### Camlin
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/camlin-tan.png" width="200px">
 
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
+[[github](http://github.com/camlin-tan)]
+[[portfolio](team/camlin-tan.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
+* Role: Deliverables and Deadline
+* Responsibilities: Ensure project deliverables are done on time and in the right format.
 
 ### Johnny Doe
 
