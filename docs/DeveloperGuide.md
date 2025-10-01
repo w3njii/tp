@@ -274,11 +274,23 @@ _{Explain here how the data archiving feature will be implemented}_
 
 **Target user profile**:
 
-* has a need to manage a significant number of contacts
+***General Characteristics***:
+
+* independent home-care doctor often making home visits
+* has a need to manage a significant number of patients with diverse conditions
+* works with limited resources (e.g., no receptionist, no nurse), self-services features are a must
+
+***Technical Characteristics***:
 * prefer desktop apps over other types
 * can type fast
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
+* needs reliable offline mode
+
+***Workflow Challenges***:
+* Time pressure during home visits, needs to manage patients quickly
+* juggle between patient's contact details, medical history, appointments
+* needs to track follow-up appointments, medication schedules
 
 **Value proposition**: manage contacts faster than a typical mouse/GUI driven app
 
