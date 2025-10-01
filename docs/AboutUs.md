@@ -21,6 +21,16 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Code Quality, Documentation
 * Responsibilities: In charge of documentation quality and code quality
 
+### Camlin
+
+<img src="images/camlin-tan.png" width="200px">
+
+[[github](http://github.com/camlin-tan)]
+[[portfolio](team/camlin-tan.md)]
+
+* Role: Deliverables and Deadline
+* Responsibilities: Ensure project deliverables are done on time and in the right format.
+
 ### Ivan Lau
 
 <img src="images/soywater.png" width="200px">
@@ -29,7 +39,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/soywater.md)]
 
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: DevOps + Integration
 
 ### Lew Si Yu
 
