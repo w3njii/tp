@@ -288,11 +288,15 @@ _{Explain here how the data archiving feature will be implemented}_
 * needs reliable offline mode
 
 ***Workflow Challenges***:
-* Time pressure during home visits, needs to manage patients quickly
+* time pressure during home visits, needs to manage patients quickly
 * juggle between patient's contact details, medical history, appointments
 * needs to track follow-up appointments, medication schedules
 
-**Value proposition**: manage contacts faster than a typical mouse/GUI driven app
+**Value proposition**: 
+
+Helps independent doctors manager their patients and schedule more efficiently using a keyboard-focused UI.
+It is optimised for more tech-savvy doctors who prefer using a CLI.
+Enables quick retrieval of patient’s records, especially useful when they are always on the move.
 
 
 ### User stories
