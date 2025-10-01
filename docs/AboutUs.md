@@ -29,18 +29,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/soywater.md)]
 
 * Role: Developer
-<<<<<<< HEAD
 * Responsibilities: Data
-
-### Jean Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)]
-[[portfolio](team/johndoe.md)]
-
-* Role: Developer
-* Responsibilities: Dev Ops + Threading
 
 ### Lew Si Yu
 
@@ -50,7 +39,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[portfolio](team/bananapielearnsjava.md)]
 
 * Role: Developer
-* Responsibilities: Model, UI, Storage 
-=======
-* Responsibilities: Dev Ops + Integration
->>>>>>> master
+* Responsibilities: Model, UI, Storage
+
+### Jia Yang (soo42)
+<img src ="images/soo42.png" width="200px">
+
+[[github](http://github.com/soo42)]
+[[portfolio](team/soo42.md)]
+
+* Role: Developer
+* Responsibilities: Testing + Data
