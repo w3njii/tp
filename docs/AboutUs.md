@@ -20,3 +20,13 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Code Quality, Documentation
 * Responsibilities: In charge of documentation quality and code quality
+
+### Ivan Lau
+
+<img src="images/soywater.png" width="200px">
+
+[[github](https://github.com/SoyWater)]
+[[portfolio](team/soywater.md)]
+
+* Role: Developer
+* Responsibilities: Dev Ops + Integration
