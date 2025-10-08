@@ -30,19 +30,19 @@ public class DateOfBirthTest {
         assertFalse(DateOfBirth.isValidDateOfBirth(" ")); // spaces only
         assertFalse(DateOfBirth.isValidDateOfBirth("not-a-date"));
         assertFalse(DateOfBirth.isValidDateOfBirth("2020-02-30")); // invalid date
-        assertFalse(DateOfBirth.isValidDateOfBirth("31/12/1999")); // wrong format
+        assertFalse(DateOfBirth.isValidDateOfBirth("31/14/1999")); // wrong month
 
         // valid date of birth
-        assertTrue(DateOfBirth.isValidDateOfBirth("1999-12-31"));
-        assertTrue(DateOfBirth.isValidDateOfBirth("2000-01-01"));
+        assertTrue(DateOfBirth.isValidDateOfBirth("31-12-1999"));
+        assertTrue(DateOfBirth.isValidDateOfBirth("01-01-2000"));
     }
 
     @Test
     public void equals() {
-        DateOfBirth dob = new DateOfBirth("2000-01-01");
+        DateOfBirth dob = new DateOfBirth("01-01-2000");
 
         // same values -> returns true
-        assertTrue(dob.equals(new DateOfBirth("2000-01-01")));
+        assertTrue(dob.equals(new DateOfBirth("01-01-2000")));
 
         // same object -> returns true
         assertTrue(dob.equals(dob));
@@ -54,13 +54,13 @@ public class DateOfBirthTest {
         assertFalse(dob.equals(5.0f));
 
         // different values -> returns false
-        assertFalse(dob.equals(new DateOfBirth("1999-12-31")));
+        assertFalse(dob.equals(new DateOfBirth("31-12-1999")));
     }
 
     @Test
     public void hashCode_sameValue_equals() {
-        DateOfBirth dob1 = new DateOfBirth("2000-01-01");
-        DateOfBirth dob2 = new DateOfBirth("2000-01-01");
+        DateOfBirth dob1 = new DateOfBirth("01-01-2000");
+        DateOfBirth dob2 = new DateOfBirth("01-01-2000");
         assertEquals(dob1.hashCode(), dob2.hashCode());
     }
 }
