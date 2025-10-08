@@ -11,7 +11,7 @@ import seedu.address.model.util.DateParserUtil;
 
 /**
  * Represents a person's date of birth in the system.
- * Guarantees: immutable; is valid as declared in {@link #isValidDate(String)}.
+ * Guarantees: immutable; is valid as declared in {@link #isValidDateOfBirth(String)}.
  */
 public class DateOfBirth {
 
@@ -72,14 +72,14 @@ public class DateOfBirth {
      */
     public DateOfBirth(String dateOfBirth) {
         requireNonNull(dateOfBirth);
-        checkArgument(isValidDate(dateOfBirth), MESSAGE_CONSTRAINTS);
+        checkArgument(isValidDateOfBirth(dateOfBirth), MESSAGE_CONSTRAINTS);
         this.dateOfBirth = DateParserUtil.parseDate(dateOfBirth, FORMATTERS);
     }
 
     /**
      * Returns true if a given string is a valid date.
      */
-    public static boolean isValidDate(String test) {
+    public static boolean isValidDateOfBirth(String test) {
         return test.matches(VALIDATION_REGEX) && DateParserUtil.isValidDate(test, FORMATTERS);
     }
 
