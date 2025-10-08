@@ -107,7 +107,8 @@ class JsonAdaptedPerson {
         final Address modelAddress = new Address(address);
 
         if (bloodType == null) {
-            throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT, BloodType.class.getSimpleName()));
+            throw new IllegalValueException(String.format(MISSING_FIELD_MESSAGE_FORMAT,
+                    BloodType.class.getSimpleName()));
         }
         if (!BloodType.isValidBloodType(bloodType)) {
             throw new IllegalValueException(BloodType.MESSAGE_CONSTRAINTS);
