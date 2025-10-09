@@ -108,7 +108,7 @@ public class PersonBuilder {
     }
 
     /**
-     * Sets the {@code Name} of the {@code Person} that we are building.
+     * Sets the {@code bloodType} of the {@code Person} that we are building.
      */
     public PersonBuilder withBloodType(String bloodType) {
         this.bloodType = new BloodType(bloodType);
