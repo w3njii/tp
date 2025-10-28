@@ -6,6 +6,7 @@ import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
 import java.nio.file.Path;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -170,6 +171,14 @@ public class ModelManager implements Model {
     public void setAppointment(Appointment target, Appointment editedAppointment) {
         requireAllNonNull(target, editedAppointment);
         addressBook.setAppointment(target, editedAppointment);
+    }
+
+    @Override
+    public Optional<Person> getPersonById(IdentityNumber id) {
+        requireNonNull(id);
+        return addressBook.getPersonList().stream()
+                .filter(person -> person.getIdentityNumber().equals(id))
+                .findFirst();
     }
 
     //=========== Filtered Person List Accessors =============================================================

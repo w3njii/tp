@@ -2,6 +2,7 @@ package seedu.address.model;
 
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Predicate;
 
 import javafx.collections.ObservableList;
@@ -72,6 +73,12 @@ public interface Model {
      * Returns true if a person with the same identity as {@code person} exists in the address book.
      */
     boolean hasPerson(Person person);
+
+    /**
+     * Returns the Person object corresponding to the given IdentityNumber.
+     * Returns {@code Optional.empty()} if no such person exists.
+     */
+    Optional<Person> getPersonById(IdentityNumber id);
 
     /**
      * Returns true if an appointment with the same patientId and time as {@code appointment}
